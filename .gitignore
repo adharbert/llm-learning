@@ -1,0 +1,31 @@
+# Byte-code files
+*.pyc
+__pycache__/
+
+
+# Environments
+.venv/
+venv/
+env/
+
+
+# IDEs and editors
+.idea/  # for PyCharm
+.vscode/ # for VS Code
+*.swp   # for Vim
+
+# OS and misc files
+.DS_Store # macOS files
+Thumbs.db # Windows files
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+
+# Secrets/credentials (optional, but highly recommended)
+.env
+.flaskenv
+secrets.toml
+
